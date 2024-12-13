@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="assets/css/portifolio.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <img src="assets/images/profile.jpg" alt="Profile Picture" class="hero__image">
+      <h1 class="hero__title">Hello, I'm [Your Name]</h1>
+      <p class="hero__subtitle">A passionate front-end developer</p>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a front-end developer with a strong background in creating responsive, user-friendly websites and web applications. My skills include HTML, CSS, JavaScript, and modern frameworks such as React and Vue.js.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects__grid">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <img src="assets/images/project1.jpg" alt="Project 1">
+        <p>A brief description of project 1. It demonstrates my skills in [specific skills].</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <img src="assets/images/project2.jpg" alt="Project 2">
+        <p>A brief description of project 2. It showcases my expertise in [technologies].</p>
+      </div>
+      <!-- More projects as needed -->
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post" class="contact__form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/js/portifolio.js"></script>
+</body>
+</html>
